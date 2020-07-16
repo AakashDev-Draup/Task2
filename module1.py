@@ -7,6 +7,7 @@ makeconnection()
 class User(Document):
     """This class has all the attributes for a new user"""
     username = StringField(unique=True, required=True, max_length=10)
+    meta = {'allow_inheritance': True}
 
 
 class accesslevel(User):
