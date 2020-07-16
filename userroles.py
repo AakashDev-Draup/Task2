@@ -1,5 +1,5 @@
 def assignactions(role):
-
+"""This function assign access level"""
     #roles which have read only access
     role_read = [""]
     # roles which have write access
