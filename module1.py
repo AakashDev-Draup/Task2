@@ -10,6 +10,7 @@ class User(Document):
 
 
 class accesslevel(User):
+    """This class has the roles and actions for the user from the User class"""
     roles = ListField(StringField())
     actions = ListField(StringField())
 

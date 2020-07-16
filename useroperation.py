@@ -12,5 +12,6 @@ def updateuser():
     """This function is used to edit user details"""
     pass
 
+
 def accessdata(accesslevel):
     """This function has data read write or delete functionality for user based on the access level from the database"""

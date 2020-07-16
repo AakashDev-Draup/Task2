@@ -1,5 +1,7 @@
 def assignactions(role):
-"""This function assign access level"""
+
+    """This function returns the access level based on the roles"""
+
     #roles which have read only access
     role_read = [""]
     # roles which have write access
@@ -19,6 +21,8 @@ def assignactions(role):
 
 def addrole(user):
 
+    """This function is used to add roles and based on that access levels to the user"""
+
     print(user.roles)
     no = int(input("Enter the no of roles to add:"))
     role = []
@@ -33,6 +37,8 @@ def addrole(user):
 
 
 def removerole(user):
+
+    """This function removes the roles and associated access levels"""
 
     print(user.roles)
     no = int(input("Enter the no of roles to remove:"))
